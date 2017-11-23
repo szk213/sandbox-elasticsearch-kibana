@@ -2,7 +2,7 @@
 
 elasticsearchを試してみる
 
-- ![](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/szk213/sandbox-elasticsearch-kibana/master/docker-compose.yml)
+- ![play-with-docker](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/szk213/sandbox-elasticsearch-kibana/master/docker-compose.yml)
 
 ## 参考
 
