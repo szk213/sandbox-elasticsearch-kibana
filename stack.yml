@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  elasticsearch:
+    image: elasticsearch
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+        # https://github.com/docker-library/elasticsearch/issues/111
+        # uliimit
+  kibana:
+      image: kibana
+      ports:
+          - 8080:5601
