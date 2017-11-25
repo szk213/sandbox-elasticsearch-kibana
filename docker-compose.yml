@@ -10,7 +10,7 @@ services:
         # https://github.com/docker-library/elasticsearch/issues/111
         # uliimit
     environment: 
-      - ES_JAVA_OPTS="-Xms2g -Xmx2g"
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
   kibana:
       image: kibana
       ports:
